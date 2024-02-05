@@ -50,3 +50,7 @@ app.put("/completed", async function (req, res) {
         msg: "todo marked as complete"
     })
 });
+
+app.listen(3000, () => {
+    console.log("Server Started");
+});

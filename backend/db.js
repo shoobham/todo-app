@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("localhost:27017/todos");
+mongoose.connect("mongodb+srv://mongouser:HFRTFOGygzaOrY2L@cluster0.dawtyml.mongodb.net/todos?retryWrites=true&w=majority");
 
 const todoSchema = mongoose.Schema({
     title: String,
